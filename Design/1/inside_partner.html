@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partner</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="cssmy/inside_member.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.esm.js"></script>
+    <script src="js/bootstrap.esm.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body style="padding: 1%;">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top nav justify-content-end">
+        <a class="navbar-brand" href="#"><button type="submit">ออกจากระบบ</button></a> 
+    </nav>
+    <table style="align-items: center; width: 85%;">
+        <tr>
+            <td style="height: 100%;background: #ffffff;">
+                <div class="w3-content" style="align-items: center; max-width:100%;">
+                    <table class="w3-center" style="height: 10%;width: 100%;"><tr><td>
+                        <h1><b>Welcome, Member </b><span class="w3-tag"><!-- ดึงชื่อ User ที่ login แล้วแสดง <?php echo $_SESSION['name']?> --></span></h1>
+                    </td></tr></table>
+                    <div class="form-container">
+                        <div class="form-section">
+                            <h3>Privacy information(ข้อมูลส่วนบุคคล)</h3>
+                            <table style="align-items: center; width: 70%;">
+                                <tr>
+                                    <td style="width: 50%; padding: 5px;">
+                                        <label for="name" style="font-size: 18px;">ชื่อ <!-- ดึงชื่อ User ที่ login แล้วแสดง <?php echo $_SESSION['name']?> --></label>
+                                    </td>
+                                    <td style="width: 50%; padding: 5px;">
+                                        <label for="name" style="font-size: 18px;">นามสกุล <!-- ดึงชื่อ User ที่ login แล้วแสดง <?php echo $_SESSION['lastname']?> --></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; padding: 5px;">
+                                        <label for="name" style="font-size: 18px;">เบอร์ <!-- ดึงชื่อ User ที่ login แล้วแสดง <?php echo $_SESSION['number_phone']?> --></label>
+                                    </td>
+                                    <td style="width: 50%; padding: 5px; height: 70px;">
+                                        <label for="name" style="font-size: 18px;">บัตรประชาชน</label>
+                                        <input type="text" name="id_card" id="id_card" placeholder="Enter your id_card">
+                                    </td>
+                                </tr> 
+                                <tr>
+                                    <td style="width: 50%; padding: 5px;">
+                                        <label for="name" style="font-size: 18px;">น้ำหนัก</label>
+                                        <input type="number" name="weight" id="weight" placeholder="Enter your Weight">
+                                    </td>
+                                    <td style="width: 50%; padding: 5px;">
+                                        <label for="name" style="font-size: 18px;">ส่วนสูง</label>
+                                        <input type="number" name="Height" id="Height" placeholder="Enter your Height">
+                                    </td>
+                                    
+                            </table>
+                            <table style="align-items: center; width: 70%;">
+                                <tr>
+                                    <td style="width: 100%; padding: 5px;">
+                                        <label for="name" style="font-size: 18px;">ที่อยู่</label>
+                                        <input type="text" name="address" id="address" placeholder="Enter your address">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 100%; padding: 5px;">
+                                        <label for="name" style="font-size: 18px;">หมายเลขใบอนุญาตที่</label>
+                                        <input type="text" name="license" id="license" placeholder="Enter your license">
+                                    </td>
+                                </tr>
+                            </table>
+                            <table style="align-items: center; width: 15%;">
+                                <tr>
+                                    <td style="width: 25%; padding: 5px;">
+                                        <div class="butt">
+                                            <a href="inside_partner01.html"><button type="submit">Save</button></a>
+                                        </div>
+                                    </td>
+                                    <td style="width: 25%; padding: 5px;">
+                                        <div class="butt">
+                                            <a href="inside_partner01.html"> <button type="submit">Cancel</button></a> 
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </td>  
+        </tr>
+        <tr>
+            <td>
+                <h2><b>New</b></h2>
+                <div class="table-container">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2><b>NewS</b></h2>
+                <div class="table-container">
+                </div>
+            </td>
+        </tr>     
+    </table>
+</body>
+</html>

@@ -1,0 +1,29 @@
+1.index Login
+- user
+- password
+2.regis_member
+- ชื่อ-สกุล 
+- เบอร์
+- user
+- password
+	1. inside_member
+	-บัตรประชาชน
+	-น้ำหนัก
+	-ส่วนสูง
+	- ที่อยู่ปัจจุบัน
+		1. order 
+3.regis_partner
+- ชื่อ-สกุล 
+- เบอร์
+- user
+- password
+	1. inside_partner
+	-บัตรประชาชน
+	-น้ำหนัก
+	-ส่วนสูง
+	- ที่อยู่ปัจจุบัน
+	-หมายเลขใบอนุญาตที่
+4.admin
+
+
+	
